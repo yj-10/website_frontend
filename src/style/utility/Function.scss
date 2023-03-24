@@ -1,0 +1,10 @@
+
+
+@mixin text-style($size, $color) {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Poppins";
+  color: $color;
+  font-size: $size;
+
+}

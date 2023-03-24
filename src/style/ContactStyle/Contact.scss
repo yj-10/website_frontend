@@ -1,0 +1,200 @@
+$bgcolor: #2075f5;
+$color: #ffff;
+
+//img style header
+
+#sect {
+  img {
+    filter: contrast(100%);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+  }
+}
+
+//second section degine in contact form
+
+#SecPart {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  background-color: #ffff;
+  padding: 20px 0px;
+
+  #title {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgba(15, 15, 15, 0.9);
+    padding: 10px 0px;
+
+    h2 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 27px;
+      margin-bottom: 25px;
+    }
+
+    p {
+      color: black;
+      text-align: center;
+      text-transform: capitalize;
+      margin: 0px 50px 0px 50px;
+      padding: 0px 100px;
+      font-size: medium;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  }
+
+  #Cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    // background-color: red;
+    // margin: 25px 0px;
+    .card {
+      overflow: hidden;
+      display: block;
+      padding: 12px;
+      margin: 10px;
+
+      &:hover {
+        background-color: $bgcolor;
+        color: $color;
+      }
+
+      .card-body {
+        display: flex;
+        // padding: 10px;
+        .card-title {
+          // margin-bottom: 0.5rem;
+          width: 163px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+#secthired {
+  padding: 40px 0px !important ;
+  display: block;
+  overflow: hidden;
+
+  .container-fluid {
+    padding-left: var(--mdb-gutter-x, 0 rem) !important;
+  }
+
+  #Formstyle {
+    padding: 0px 100px 0px 20px;
+  }
+  #box {
+    // margin-: 150px;
+    padding: 0px 0px 0px 20px;
+
+    h3 {
+      font-weight: bolder;
+      letter-spacing: 0.3px;
+      font-variant: normal;
+      font-size: 43px;
+      color: rgba(15, 15, 15, 0.7);
+      text-align: start;
+    }
+    p {
+      text-align: start;
+      font-size: 16px;
+      width: 350px;
+      height: 120px;
+      font-family: "Times New Roman", Times, serif;
+      text-transform: capitalize;
+    }
+  }
+  // }
+}
+
+@media screen and (max-width: 1540px) {
+  // body {
+  //   background-color: rgb(255, 208, 0);
+  //   color: white;
+  // }
+  #secthired {
+    #Formstyle {
+      padding: 0px 0px 0px 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1124px) {
+  // body {
+  //   background-color: rgb(255, 0, 0);
+  //   color: white;
+  // }
+  #secthired {
+    #Formstyle {
+      padding: 0px 40px 0px 20px;
+    }
+  }
+}
+@media screen and (max-width: 332px) {
+  // body {
+  //   background-color: blue;
+  //   color: white;
+  // }
+
+  #SecPart {
+    #title {
+      h2 {
+      }
+
+      p {
+        margin: 0px 10px 0px 10px;
+        padding: 0px 10px;
+      }
+    }
+  }
+
+  #secthired {
+    #Formstyle {
+      padding: 0px 0px 0px 20px;
+    }
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  // body {
+  //   background-color: olive;
+  //   color: white;
+  // }
+
+  #SecPart {
+    #title {
+      h2 {
+      }
+
+      p {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 20px;
+        text-align: center;
+        font-size: 15px;
+      }
+    }
+  }
+  #secthired {
+    #Formstyle {
+      padding: 0px 40px 0px 20px;
+    }
+  }
+}
+@media screen and (max-width: 445px) {
+  #secthired #box p {
+
+    font-size: 16px;
+    width: 256px;
+    height: 120px;
+
+ 
+  }
+}

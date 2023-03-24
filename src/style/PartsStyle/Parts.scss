@@ -1,0 +1,138 @@
+$color: #162337;
+
+#partsHead {
+  width: 100%;
+  display: block;
+
+  #Partsimgbox {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#PartsMiddle {
+  padding: 30px;
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: white !important;
+    background: #162337 !important;
+    /* background-color: var(--bs-nav-pills-link-active-bg); */
+  }
+  a.nav-link {
+    color: #000000 !important;
+    border: 1px solid #000000 !important;
+  }
+
+  #LetfSidePart {
+    // margin: 0px 40px;
+    // padding: 20px 20px;
+
+    //  background-color: red;
+
+    // imgparts degines
+
+    #imgParts {
+      width: auto;
+      background-position: center;
+      background-size: cover;
+      height: 330px;
+      // margin: 20px 0px;
+      filter: contrast(120%);
+      img {
+        height: 100%;
+
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    #title {
+      // margin: 0px 0px;
+      text-align: start;
+      font-weight: bold;
+      font-size: 42px;
+      letter-spacing: 2px;
+      font-weight: 450;
+      color: $color;
+
+      &::after {
+        content: "";
+        width: 20%;
+        background-color: $color;
+        margin: 10px 0px;
+        border-bottom: 2px solid $color;
+        display: block;
+      }
+    }
+
+    #body-parts {
+      p {
+        margin: 29px 0px;
+        text-align: start;
+        font-size: 16px;
+        text-transform: capitalize;
+        text-align: start;
+        font-style: normal;
+        line-height: 28px;
+        font-weight: 450;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+//     }
+
+// left side parts
+
+//
+
+@media screen and (max-width: 768px) {
+  #PartsMiddle #boxtwo #LetfSidePart {
+    margin: 0px 0px;
+    padding: 20px 20px;
+  }
+  #PartsMiddle #boxtwo #LetfSidePart #body-parts p {
+    font-size: 14px;
+  }
+
+  #PartsMiddle #boxtwo #LetfSidePart #title {
+    font-size: 28px;
+  }
+  #PartsMiddle #boxtwo #LetfSidePart #buttonparts button {
+    border: none;
+    background: #2a4e5a;
+    border-radius: 43px;
+    width: 135px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #PartsMiddle #LetfSidePart #title {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  #PartsMiddle #boxtwo #LetfSidePart #buttonparts button {
+    border: none;
+    background: #2a4e5a;
+    border-radius: 43px;
+    width: 110px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 30px;
+  }
+}

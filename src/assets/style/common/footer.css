@@ -1,0 +1,129 @@
+/* .app_footer {
+  padding: 50px 0px 30px;
+  background-color: #162337;
+} */
+.app_sub_footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.app_sub_footer ul li {
+  display: inline-block;
+    margin: 0px 10px;
+}
+
+.app_sub_footer ul li a {
+  text-decoration: none;
+  color: rgb(248, 244, 244);
+  text-transform: capitalize;
+  font-family: "Poppins";
+  padding: 0;
+}
+/* .app_footer .address_details .pera {
+  color: #fff;
+  padding: 10px 0px 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.app_footer .address_contact .pera {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer_links_wrap .footer_links_title .h3_title {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.footer_links_wrap ul {
+  padding: 0px;
+}
+
+.footer_links_wrap ul li {
+  list-style: none;
+}
+
+.footer_links_wrap ul li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer_social_wrap .footer_social_title .h3_title {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.footer_social_links {
+  display: flex;
+  padding: 20px 0px;
+}
+.footer_social_links li {
+  list-style: none;
+
+  margin-bottom: 15px;
+}
+
+.footer_social_links li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.footer_social_links .footer_social_icn {
+  height: 40px;
+  width: 40px;
+  background-color: #1877f2;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.footer_social_links .footer_social_icn svg {
+  font-size: 25px;
+}
+
+.footer_social_links .footer_social_icn.link {
+  background-color: #0078b5;
+}
+
+.footer_social_links .footer_social_icn.twi {
+  background-color: #1da1f2;
+}
+
+.footer_social_links .footer_social_icn.ins {
+  background: linear-gradient(
+    45deg,
+    #ffd521 14.64%,
+    #ffd020 18.54%,
+    #fec01e 23.42%,
+    #fca71b 28.82%,
+    #fa8316 34.59%,
+    #f85510 40.67%,
+    #f51e09 46.91%,
+    #f30005 50%,
+    #f20007 50.25%,
+    #e1003b 56.83%,
+    #d30067 63.29%,
+    #c70088 69.49%,
+    #bf00a0 75.38%,
+    #bb00af 80.81%,
+    #b900b4 85.36%
+  );
+}
+@media screen and (max-width: 575px) {
+  .address_wrap {
+    margin-bottom: 20px;
+  }
+} */

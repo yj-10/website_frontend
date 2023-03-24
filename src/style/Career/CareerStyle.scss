@@ -1,0 +1,133 @@
+@import "../utility/Function.scss";
+@import "../utility/Variables";
+
+.C_section {
+  background-color: $bg-color;
+  padding: 40px 0px;
+  display: block;
+  overflow: hidden;
+  article {
+    h1 {
+      @include text-style(48px, $font-color-three);
+      font-family: "Montserrat";
+    }
+    p {
+      @include text-style(16px, $font-color-three);
+      letter-spacing: 0.4px;
+      padding: 10px 0px;
+      font-family: "Montserrat";
+      text-align: center;
+    }
+  }
+}
+.C_Middle_section {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  .heading_text {
+    @include text-style(32px, $font-color-three);
+    padding: 10px 0px;
+    letter-spacing: 0.4px;
+  }
+
+  .C_wrapper_first,
+  .C_wrapper_two,
+  .C_wrapper_three {
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    overflow: hidden;
+    padding: 40px;
+    background: #ffffff;
+    transition: all 2s linear;
+    box-shadow: inset 5px 5px 16px #c5c5c5, inset -5px -5px 30px #fbfbfb;
+
+    &:hover {
+      box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    }
+    .icons {
+      margin: 0px 5px;
+      i {
+        color: $font-color;
+      }
+    }
+    .text_wrap {
+      margin: 0px 0px 0px 20px;
+      h4 {
+        @include text-style(20px, $font-color-three);
+        font-family: "Montserrat";
+      }
+      p {
+        @include text-style(16px, $font-color-three);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.C_job_apply_section {
+  padding: 50px 0px;
+  background-color: $bg-color;
+  .C_job_head_section {
+    margin: 10px 0px;
+    h1 {
+      // margin: 4px 0px;
+      text-align: center;
+      @include text-style(40px, $font-color-two);
+      font-weight: 400;
+      font-family: "Montserrat";
+    }
+    p {
+      text-align: center;
+      // margin: 4px 0px;l
+      line-height: 50px;
+      @include text-style(16px, $font-color-two);
+      font-weight: 400;
+      font-family: "Montserrat";
+    }
+  }
+
+  .C_block {
+    display: grid;
+    place-items: center;
+    justify-content: space-around;
+  }
+}
+.CareerContaier {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .CareerInfo {
+    // margin-bottom: 1.5rem !important;
+    display: block;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background: white;
+    // border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    h1 {
+      background-color: #f2f2f2;
+      width: 100%;
+      text-align: center;
+      font-family: "Poppins";
+      font-weight: 500;
+      padding: 15px;
+      font-size: 20px;
+    }
+    .content {
+      padding: 40px 0px;
+      .text-end {
+        font-weight: 550;
+      }
+    }
+  }
+}

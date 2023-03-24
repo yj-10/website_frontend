@@ -1,0 +1,110 @@
+.products_wrap {
+    padding: 80px 0px;
+}
+
+.products_title {
+    text-align: center;
+}
+
+.products_title .h2_title {
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgba(38, 82, 97, 1);
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.products_title .h2_title::after {
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: rgba(38, 82, 97, 1);
+
+}
+
+.products_title .pera {
+    text-transform: uppercase;
+    max-width: 700px;
+    margin: 0px auto;
+    font-size: 16px;
+}
+
+.products_wrap .hero_slider {
+    margin-top: 30px;
+}
+
+.item_card {
+    background-color: #fff;
+    box-shadow: -1px 1px 20px 0px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+.item_card .item_card_img {
+    height: 260px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.item_card .item_card_img img {
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.item_card .item_card_body {
+    padding: 20px;
+}
+
+.products_wrap .hero_slider .owl-nav {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.products_wrap .hero_slider .owl-nav .owl-prev {
+    background: #265261 !important;
+    border-radius: 43px;
+    width: 45px;
+    height: 45px;
+    color: #FFF !important;
+    margin-right: 5px;
+}
+
+.products_wrap .hero_slider .owl-nav .owl-next {
+    background: #265261 !important;
+    border-radius: 43px;
+    width: 45px;
+    height: 45px;
+    color: #FFF !important;
+}
+
+.products_wrap .hero_slider .owl-nav .owl-prev span {
+    font-size: 30px;
+}
+
+.products_wrap .hero_slider .owl-nav .owl-next span {
+    font-size: 30px;
+}
+.item_card_body .item_card_btn{
+    background-color: #265261;
+    color: #fff;
+}
+.item_card_body .h3_title{
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.item_card_body .pera{
+    text-transform: capitalize;
+    padding: 10px 0px 15px;
+    font-size: 16px;
+}
+@media screen and (max-width: 575px) {
+    .products_wrap{
+        padding: 40px 0px;
+    }
+}

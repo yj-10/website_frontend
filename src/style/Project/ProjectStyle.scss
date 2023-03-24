@@ -1,0 +1,37 @@
+// head start
+
+#projectHead {
+  background-color: rgb(70, 73, 73);
+  width: 100%;
+  display: block;
+  position: relative;
+
+  div {
+    p {
+      text-align: center;
+      color: white;
+      padding: 30px 0px;
+      font-size: 34px;
+      font-family: "poppins";
+      letter-spacing: 0.9px;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+  }
+}
+
+//head end
+
+#projectMid {
+  width: 100%;
+  padding: 50px 0px;
+  display: block;
+  position: relative;
+  .container {
+    h1 {
+      font-weight: 300;
+    }
+
+  }
+}

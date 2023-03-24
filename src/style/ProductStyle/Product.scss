@@ -1,0 +1,204 @@
+$color: #162337;
+
+#producthead {
+  width: 100%;
+  display: block;
+  #productimgbox {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#productmid {
+  padding: 30px;
+
+  #boxone {
+    padding: 0px 0px 0px 80px;
+
+    ul {
+      display: block;
+
+      padding: 5px;
+      // width: 400px;
+      position: relative;
+
+      li {
+        display: block;
+        list-style-type: none;
+
+        a {
+          display: block;
+          background-color: white;
+          margin: 20px 0px;
+          padding: 8px 20px;
+          text-transform: capitalize;
+          border: 1px solid $color;
+          color: $color;
+
+          &:hover {
+            background-color: $color;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  // left side parts
+  #boxtwo {
+    padding: 0px 0px;
+    #LetfSideproduct {
+      margin: 0px 40px;
+      padding: 20px 20px;
+
+      #buttonproduct {
+        button {
+          border: none;
+          background: #2a4e5a;
+          border-radius: 43px;
+          width: 216px;
+
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 30px;
+          text-transform: uppercase;
+
+          color: #ffffff;
+          height: 43px;
+        }
+      }
+
+      // imgparts degines
+
+      #imgProduct {
+        width: 100%;
+
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+
+        margin: 20px 0px;
+      }
+      #title {
+        margin: 29px 0px;
+        text-align: start;
+        font-weight: bold;
+        font-size: 42px;
+        letter-spacing: 0.7px;
+        color: $color;
+
+        &::after {
+          content: "";
+          width: 14%;
+          background-color: $color;
+          margin: 10px 0px;
+          border-bottom: 2px solid $color;
+          display: block;
+        }
+      }
+
+      #body-product {
+        width: 100%;
+
+        p {
+          margin: 29px 0px;
+          text-align: start;
+          font-size: 16px;
+          text-transform: capitalize;
+          text-align: start;
+          font-style: normal;
+          letter-spacing: 0.7px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #productmid {
+    #boxone {
+      padding: 0px 10px;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
+
+    // #boxtwo {
+    //   #LetfSideproduct {
+    //     #buttonproduct {
+    //       button {
+    //         border: none;
+    //         background: #2a4e5a;
+    //         border-radius: 43px;
+    //         width: 186px;
+
+    //         font-family: "Poppins";
+    //         font-style: normal;
+    //         font-weight: 600;
+    //         font-size: 14px;
+    //         line-height: 30px;
+    //         text-transform: uppercase;
+
+    //         color: #ffffff;
+    //         height: 43px;
+    //       }
+    //     }
+    //   }
+  }
+}
+@media screen and (max-width: 768px) {
+  #productmid #boxtwo #LetfSideproduct {
+    margin: 0px 0px;
+    padding: 20px 20px;
+  }
+  #productmid #boxtwo #LetfSideproduct #title {
+    margin: 29px 0px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 0.7px;
+    color: #162337;
+  }
+  #productmid #boxtwo #LetfSideproduct #body-product p {
+    font-size: 14px;
+  }
+  #productmid #boxtwo #LetfSideproduct #buttonproduct button {
+    border: none;
+    background: #2a4e5a;
+    border-radius: 43px;
+    width: 135px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #productmid #boxtwo #LetfSideproduct #title {
+    font-size: 20px;
+  }
+  #productmid #boxtwo #LetfSideproduct #buttonproduct button {
+    border: none;
+    background: #2a4e5a;
+    border-radius: 43px;
+    width: 110px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 30px;
+  }
+}

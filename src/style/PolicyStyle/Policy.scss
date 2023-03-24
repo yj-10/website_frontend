@@ -1,0 +1,29 @@
+@import "../utility/Function.scss";
+@import "../utility/Variables";
+.P_header {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  display: block;
+
+  h1 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    @include text-style(48px, $font-color);
+  }
+}
+
+.P_section {
+  display: block;
+  padding: 20px;
+  h1 {
+    text-align: center;
+    @include text-style(32px, $font-color-two);
+  }
+  p {
+    @include text-style(14px, $font-color-three);
+    line-height: 30px;
+    letter-spacing: 0.8px;
+  }
+}

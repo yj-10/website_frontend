@@ -1,0 +1,31 @@
+@import url("./style/Aboutstyle/About.scss");
+@import url("./style/BlogStyle/Blog.scss");
+@import url("./style/ContactStyle/Contact.scss");
+@import url("./style/ErrorStyle/Error.scss");
+@import url("./style/LaborateryStyle/Layoratery.scss");
+@import url("./style/PartsStyle/Parts.scss");
+@import url("./style/ServiceStyle/Services.scss");
+
+@import url("./style/ProductStyle/Product.scss");
+@import url("./style/ProductStyle/subProduct.scss");
+@import url("./style/industries/indusctries.scss");
+@import url("./style/Project/ProjectStyle.scss");
+@import url("./style/Gallery/Gallery.scss");
+@import url("./style/Career/CareerStyle.scss");
+@import url("./style/TermStyle/Term.scss");
+@import url("./style/PolicyStyle/Policy.scss");
+.navbar {
+  padding: 0px !important;
+}
+
+// read more button style
+.read-more-button {
+  color: Blue;
+  text-transform: capitalize;
+  // margin: 3px 0px;
+}
+
+.btn-primary {
+  background-color: #2a4e5a !important;
+  border: 1px solid #2a4e5a !important;
+}

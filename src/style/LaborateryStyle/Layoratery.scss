@@ -1,0 +1,180 @@
+$mybgcolor: #162337;
+
+#labhead {
+  background-color: $mybgcolor;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: auto;
+
+  #laboratoryHeadboxLeft {
+    p:nth-child(1) {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 49px;
+      top: 40px;
+      margin: 50px 20px;
+      padding-top: 60px;
+      text-transform: capitalize;
+      color: #ffffff;
+    }
+
+    p:nth-child(2) {
+      // width: 593px;
+      // height: 225px;
+      margin: 50px 20px;
+      padding-top: 80px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 180%;
+
+      text-transform: capitalize;
+
+      color: #ffffff;
+    }
+  }
+
+  #laboratoryHeadboxRight {
+    display: block;
+
+    background: #162337;
+
+    img {
+      width: 100%;
+
+      height: 100%;
+    }
+  }
+}
+
+#labmidd {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  // background-color: red;
+  position: relative;
+
+  #LabBox {
+    #LabHeadBox {
+      margin: 20px 0px;
+  
+      h2 {
+        text-align: center;
+        font-family: "Montserrat";
+        margin: 20px 0px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: capitalize;
+
+        color: #162337;
+      }
+
+      p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        padding: 0px 80px;
+        /* or 32px */
+
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #000000;
+      }
+    }
+  }
+}
+
+#labdown {
+  display: grid;
+  justify-content: center;
+  margin: 30px 0px;
+  place-items: center;
+  #LabLowerSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    img {
+      margin: 10px;
+      width: 600px;
+      height: 801px;
+
+      border-radius: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  // body {
+  //   background-color: rgb(255, 208, 0);
+  //   color: white;
+  // }
+  #labhead #laboratoryHeadboxRight img {
+    width: 100%;
+    height: 100%;
+    margin: 138px 0px 0px 0px;
+  }
+  #LabBox {
+    padding: 0px 0px;
+  }
+
+  #labdown {
+    #LabLowerSection {
+      img {
+        width: 400px;
+        height: 600px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  // body {
+  //   background-color: rgb(255, 0, 0);
+  //   color: white;
+  // }
+  #labhead #laboratoryHeadboxRight img {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+  #LabBox {
+    padding: 0px 0px;
+  }
+  #labdown {
+    #LabLowerSection {
+      margin: 10px;
+      img {
+        width: 450px;
+        height: 500px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 332px) {
+  //   body {
+  //     background-color: blue;
+  //     color: white;
+  //   }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 768px) {
+  #labhead #laboratoryHeadboxRight img {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+.table-bordered td {
+  border: 1px px solid #000000 !important;
+}

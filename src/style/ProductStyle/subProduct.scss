@@ -1,0 +1,72 @@
+#LetfSideproduct {
+  margin: 0px 40px;
+  padding: 20px 20px;
+
+  #buttonproduct {
+    button {
+      border: none;
+      background: #2a4e5a;
+      border-radius: 43px;
+      width: 216px;
+
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      text-transform: uppercase;
+
+      color: #ffffff;
+      height: 43px;
+    }
+  }
+
+  // imgparts degines
+
+  #imgProduct {
+    // background-position: center;
+    // background-size: cover;
+    // border-radius: 20px;
+
+    margin: 20px 0px;
+    .bttn {
+      display: none;
+    }
+  }
+
+  .bttn {
+    display: none !important;
+  }
+
+  #title {
+    margin: 29px 0px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 42px;
+    letter-spacing: 0.7px;
+    color: black;
+
+    &::after {
+      content: "";
+      width: 14%;
+      background-color: black;
+      margin: 10px 0px;
+      border-bottom: 2px solid;
+      display: block;
+    }
+  }
+
+  #body-product {
+    width: 100%;
+
+    p {
+      margin: 29px 0px;
+      text-align: start;
+      font-size: 16px;
+      text-transform: capitalize;
+      text-align: start;
+      font-style: normal;
+      letter-spacing: 0.7px;
+    }
+  }
+}

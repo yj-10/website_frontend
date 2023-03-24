@@ -1,0 +1,167 @@
+@import "../utility/Function.scss";
+@import "../utility/Variables";
+
+#servicehead {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    filter: contrast(100%);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    // max-height: 400px;
+  }
+}
+
+#serviceMiddle {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 20px 0px;
+  //   background-color: aqua;
+
+  #servicebox {
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    .serviceHead {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      flex-direction: column;
+
+      width: 70%;
+      padding: 20px;
+      justify-content: center;
+      align-items: center;
+
+      //service title start
+      .servicetitle {
+        p {
+          text-align: center;
+          //  font-family: normal;
+          font-size: 34px;
+          text-transform: capitalize;
+          letter-spacing: 0.5px;
+          font-style: normal;
+          font-weight: bold;
+          color: rgba(0, 0, 0, 0.7);
+        }
+      }
+
+      //service title end
+
+      .servicemidtext {
+        p {
+          text-align: center;
+          //  font-family: normal;
+
+          text-transform: capitalize;
+          letter-spacing: 0.5px;
+          font-style: normal;
+
+          color: rgba(0, 0, 0, 0.7);
+        }
+      }
+
+      .servicelasttext {
+        p {
+          text-align: start;
+          //  font-family: normal;
+          // font-size: 34px;
+          text-transform: capitalize;
+          letter-spacing: 0.5px;
+          font-style: normal;
+          font-weight: bold;
+          color: rgba(0, 0, 0, 1);
+        }
+      }
+    }
+
+    //  card degines begin
+    #servicecard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .card {
+        // width: 400px;
+        height: auto;
+        margin: 20px;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+
+        .card-body {
+          padding: 20px;
+          display: block;
+          flex: none;
+
+          .card-title {
+            margin: 10px 0px;
+            color: black;
+            letter-spacing: 0.5px;
+          }
+
+          .card-text {
+            color: rgba(0, 0, 0, 0.8);
+            text-transform: capitalize;
+            text-decoration: none;
+            text-align: start;
+            letter-spacing: 0.4px;
+          }
+          .btn-primary {
+            display: none;
+          }
+        }
+      }
+    }
+
+    // card degin close
+  }
+}
+
+.content {
+  padding: 4px;
+  h1 {
+    @include text-style(32px, $font-color-two);
+    text-align: center;
+    font-weight: 600;
+  }
+  article {
+    display: block;
+    overflow: hidden;
+    h2 {
+      @include text-style(20px, $font-color-three);
+      text-align: start;
+      font-weight: 600;
+    }
+    ul {
+      li {
+        list-style-type: none;
+        @include text-style(15px, $font-color-three);
+        line-height: 35px;
+        letter-spacing: 0.4px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  #servicecard {
+    .card {
+      height: auto;
+      margin: 15px 0px !important;
+    }
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */

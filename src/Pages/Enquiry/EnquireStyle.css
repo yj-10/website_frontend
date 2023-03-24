@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .form-style input {
+    padding: 10px;
+  }
+  .form-style input,
+  select,
+  textarea {
+    padding: 8px;
+    outline: none;
+  }
